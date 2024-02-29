@@ -1,14 +1,13 @@
 body {
     margin: 0;
 }
-.cotainer {
-    height: 10vh;
-    padding: 32px;
-    background-image: url('https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 8px;
 }
-    
-    
- 
+.item {
+    border: 1px solid black;
 }
 
     
